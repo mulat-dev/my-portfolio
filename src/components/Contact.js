@@ -77,7 +77,7 @@ const Contact = () => {
             </div>
             <div>
               <strong>Location</strong>
-              <p>Mekelle, Tigray, Ethiopia</p>
+              <p>Addis Ababa, Ethiopia</p>
             </div>
           </div>
 
