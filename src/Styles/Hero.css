@@ -149,6 +149,20 @@
     text-align: center; /* Center the list if it wraps */
 }
 
+/* Add these styles to your Hero.css */
+
+.badge {
+    /* Keep your existing .badge styles, e.g.: */
+    background-color: #333; /* Example background */
+    color: #fff; /* Example text color */
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block; /* Ensures the badge only takes up necessary width */
+    margin-bottom: 20px; /* Space below the badge */
+    font-weight: bold;
+    text-align: center; /* Center the list if it wraps */
+}
+
 .badge .skills-list {
     list-style: none; /* Removes default bullet points */
     padding: 0;
@@ -159,6 +173,21 @@
     align-items: center; /* Vertically aligns items */
     gap: 5px; /* Adds a small gap between items */
 }
+
+.badge .skills-list li {
+    white-space: nowrap; /* Prevents individual skill names from breaking */
+    font-size: 0.9em; /* Adjust font size as needed */
+    /* Any other specific styling for list items */
+}
+
+/* Add a separator after each list item except the last one */
+.badge .skills-list li:not(:last-child)::after {
+    content: ' | '; /* The separator character */
+    color: rgba(255, 255, 255, 0.7); /* A slightly lighter color for the separator */
+    margin-left: 5px; /* Space between the skill and the separator */
+}
+
+/* You might also want to adjust the font-size or line-height of the badge if needed */
 
 
 
