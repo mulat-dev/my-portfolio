@@ -8,7 +8,14 @@ const HeroSection = () => {
     <section id="home" className="hero-section">
       <div className="hero-container">
         <div className="hero-text">
-          <div className="badge">Frontend Developer  <br>| AI Enthusiast |<br> Data Analyst | <br> Musician |<br> Virtual Assistance </div>
+                  <div className="badge">
+              <li>Frontend Developer</li>
+              <li>AI Enthusiast</li>
+              <li>Data Analyst</li>
+              <li>Musician</li>
+              <li>Virtual Assistance</li>
+            </ul>
+          </div>
           <h1>
             Hi, I'm <span className="gradient-text">Mulat Tesfay</span>
           </h1>
