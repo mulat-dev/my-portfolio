@@ -17,7 +17,7 @@ const About = () => {
             <pre>
               <span className="keyword">const</span> <span className="name">developer</span> = {'{'}
               <br />&nbsp;&nbsp;<span className="prop">name</span>: <span className="string">'Mulat Tesfay'</span>,
-              <br />&nbsp;&nbsp;<span className="prop">title</span>: <span className="string">'Frontend Developer'</span>,
+              <br />&nbsp;&nbsp;<span className="prop">title</span>: <span className="string">'Frontend Developer  | AI Enthusiast |Virtual Assistance | Musician | Data Analyst '</span>,
               <br />&nbsp;&nbsp;<span className="prop">location</span>: <span className="string">'Mekelle, Tigray, Ethiopia'</span>,
               <br />&nbsp;&nbsp;<span className="prop">skills</span>: [<span className="string">'JavaScript'</span>, <span className="string">'React'</span>, <span className="string">'Tailwind'</span>, <span className="string">'Next.js'</span>, <span className="string">'......'</span>],
               <br />&nbsp;&nbsp;<span className="prop">experience</span>: <span className="number">5</span>,
