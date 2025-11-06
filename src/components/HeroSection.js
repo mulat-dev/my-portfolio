@@ -14,7 +14,6 @@ const HeroSection = () => {
               <li>Data Analyst</li>
               <li>Musician</li>
               <li>Virtual Assistance</li>
-            </ul>
           </div>
           <h1>
             Hi, I'm <span className="gradient-text">Mulat Tesfay</span>
