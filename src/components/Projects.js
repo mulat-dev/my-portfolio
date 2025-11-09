@@ -28,14 +28,6 @@ const projects = [
     image: 'https://wallpapercat.com/w/full/d/d/2/1169610-3840x2160-desktop-4k-musical-instruments-wallpaper-image.jpg',
     link: null,
   },
-  {
-    title: 'AlajeMercy',
-    description: 'A Destiled water company website showcasing products and services.',
-    tech: ['React', 'Firebase', 'Tailwind CSS'],
-    icon: <FaWater />,
-    image: alaje,
-    link: null,
-  },
 ];
 
 
