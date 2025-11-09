@@ -1,7 +1,7 @@
 // src/components/HeroSection.jsx
 import React from 'react';
 import '../Styles/Hero.css';
-import myPhoto from '../Assets/3B1A1384.JPG.jpg'; // Import your image
+import myPhoto from '../Assets/src/3B1A1384.JPG.jpg'; // Import your image
 
 const HeroSection = () => {
   return (
