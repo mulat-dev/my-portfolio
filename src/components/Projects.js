@@ -2,7 +2,6 @@
 import React from "react";
 import { FaBriefcase, FaUtensils, FaMusic, FaWater } from "react-icons/fa";
 import "../Styles/Projects.css";
-import alaje from "../Assets/alaje.jpg"; // Assuming you have an image for AlajeMercy
 const projects = [
   {
     title: 'Sheqlee',
